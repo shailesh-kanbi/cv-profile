@@ -1,0 +1,34 @@
+body{
+  background-color: lightgrey;
+}
+.main-right{
+  border-radius: 0.5em;
+  border: 1px solid #B497D6;
+  background-color: #B497D6;
+  padding:10px;
+}
+.leftnav{
+  border-radius: 0.5em;
+  border: 1px solid #B497D6;
+  padding-left: 0px !important;
+  background-color: #B497D6;
+}
+.leftnav ul li{
+  list-style-type: none;
+  font-size: 1.5em;
+  margin : 3px 2px;
+}
+.bb-1{
+  border-bottom: 1px solid #B497D6;
+}
+.pl-0{
+  padding-left: 0px;
+}
+button{
+  border-style: solid;
+      border-radius: .3em;
+      width: 100%;
+}
+button:active{
+  color:#736189;
+}
