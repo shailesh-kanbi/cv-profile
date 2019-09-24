@@ -1,19 +1,22 @@
 body{
   background-color: lightgrey;
+  margin: 2% 45px;
 }
 .main-right{
   border-radius: 0.5em;
   border: 1px solid #B497D6;
   background-color: #B497D6;
   padding:10px;
+  margin-top : 30px;
 }
 .leftnav{
   border-radius: 0.5em;
   border: 1px solid #B497D6;
   padding-left: 0px !important;
   background-color: #B497D6;
+  margin-top: 30px;
 }
-.leftnav ul li{
+.leftnav>ul>li{
   list-style-type: none;
   font-size: 1.5em;
   margin : 3px 2px;
@@ -31,4 +34,24 @@ button{
 }
 button:active{
   color:#736189;
+}
+#sub-section2{
+  display:none;
+}
+.flex-container{
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 20px;
+}
+.mx-2{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.profile-pic{
+  border-radius: 5px;
+  border: 1px solid #fff;
+  margin:4px;
+}
+p{
+  font-size: 16px;
 }
